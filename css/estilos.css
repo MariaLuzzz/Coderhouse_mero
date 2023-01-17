@@ -3,7 +3,16 @@
     font-family: arsenica trial;
     src: url(fuentes/ArsenicaTrial-Regular.ttf);
 }
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
 
+.nav-link.active {
+    animation: beat .3s;
+	transform-origin: center;
+    animation-delay: 1s;
+    mask-repeat: 4;
+}
 .contenedor1{
     max-width: 100%;
     margin: 0;

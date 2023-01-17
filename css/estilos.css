@@ -13,6 +13,7 @@
    width: 100%;
    background: rgba(255, 255, 255, 0.692); 
    position: fixed;
+   z-index: 9999;
 }
 .background__portfolio{
     background-image: url(../img/1x/img-portfolio\ respns.png);
@@ -381,6 +382,7 @@ p{
        width: 100%; 
        height: 100px;    
        position: fixed;
+       z-index: 9999;
     }
 }
     
@@ -396,6 +398,7 @@ p{
  }
 .header{   
     position: fixed;
+    z-index: 9999;
 }
 
 .col-md-6 {
@@ -404,13 +407,13 @@ p{
 }
 .div.card{
     width: 25rem;
-    margin-bottom: 12rem
+    margin-bottom: 12rem;
 }
 .container.portfolio{
     flex-direction: column;
     display: flex;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    align-items: center;
 }
 .frase-contenedor h3 {
     padding: 22rem 1rem;

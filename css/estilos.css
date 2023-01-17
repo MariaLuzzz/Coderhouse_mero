@@ -238,7 +238,7 @@ p{
 }
 .main2{
 	display: grid;
-    grid-template-rows: 663px 285px 550px 610px 500px;
+    grid-template-rows: 663px 285px 550px 610px;
     gap: 15px;
     grid-template-columns: 710px 1fr;
     overflow: hidden;
@@ -351,7 +351,7 @@ p{
     padding-top: 70px;
 }
 .imagen__redes img{
-    width: 100%; 
+    width: 99.8%; 
     padding-top: 0px;
     margin-right: 500px;
 }
@@ -523,9 +523,9 @@ p{
 }
 .main2 {
     display: grid;
-    grid-template-rows: 430px 170px 340px;
+    grid-template-rows: 435px 150px 279px;
     grid-template-columns: 220px 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
     overflow: hidden;
 }
 .main__servicios {
@@ -582,6 +582,7 @@ p{
     width: 100%;
     background-color: beige;
     grid-column: span 3;
+    height: 160px;
 }
 .branding{
    display: contents;

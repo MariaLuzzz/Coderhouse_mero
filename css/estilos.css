@@ -57,6 +57,9 @@
 .navbar-nav :hover{
     color: rgb(223, 223, 197);    
 }
+.info{
+    font-size: 1rem;
+}
 .card{
     width: 20rem; 
     margin-top: 12rem; 
@@ -377,7 +380,7 @@ p{
 @media screen and (max-width: 768px) {
     .col-md-6 {
         flex: 0 0 auto;
-        width: 40%;
+        width: 47%;
     }
     .navbar{
         width: 100%;
@@ -417,9 +420,15 @@ p{
     z-index: 9999;
 }
 
+.text-center{
+    font-size: 0.8rem;
+}
 .col-md-6 {
     flex: 0 0 auto;
     width: 40%;
+}
+.info{
+    font-size: 0.8rem;
 }
 .card{
     width: 23rem;
@@ -435,9 +444,14 @@ p{
 .frase-contenedor h3 {
     padding: 22rem 1rem;
 }
+.footer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .row>* {
     flex-shrink: 0;
     margin-top: var(--bs-gutter-y);
+    width: 40%;
 }
 .my-4 {
     margin-top: 1.5rem;

@@ -26,6 +26,8 @@
 .frase-contenedor h3{
     padding: 22rem 1rem;
     padding-right: 25rem;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .background__contenedor{
    background-image: url(../img/fondo-inicio.png);

@@ -17,6 +17,7 @@
     max-width: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 .navbar{
    width: 100%;
@@ -247,26 +248,7 @@ p{
     padding-top: 20rem;
     padding-bottom: 20rem;
 }
-.main2{
-	display: grid;
-    grid-template-rows: 663px 285px 550px 610px;
-    gap: 15px;
-    grid-template-columns: 710px 1fr;
-    overflow: hidden;
-	
-}
-.main__servicios{
-    background-image: url(../img/fondo\ servicios.png);
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 680px;
-}
-.presentacion__servicios img{
-    width: 580px;
-    height: 600px;
-    padding-top: 5rem;
-    margin-left: 100px;
-}
+
 .texto__servicios{
     display: flex;
     padding-top: 10rem;
@@ -277,14 +259,14 @@ p{
     height: 2px;
     margin-top: 30px;
     background: black;
-    margin-left: 250px;
+    margin-left: 950px;
 }
 .texto__introduccion h1{
     font-family: arsenica trial;
     font-weight: normal;
     font-size: 3rem;
-    margin: 3rem;
     text-align: center;
+    padding-top: 15rem;
 }
 .texto__introduccion p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -292,6 +274,8 @@ p{
     font-size: 1.2rem;
     text-align: center;
     margin: 2rem;
+    margin-left: 48rem;
+    margin-right: 5rem;
 }
 .frase{
     margin: auto;
@@ -316,8 +300,8 @@ p{
     background: black;
     margin-left: 650px;
 }
-.branding__explicacion{
-    padding-top: 70px;
+.branding{
+    margin-bottom: 0rem;
 }
 .branding__explicacion p{
     font-size: 1rem;
@@ -325,58 +309,51 @@ p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
-    padding-top: 45px;
-    margin-right: 50px;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    margin-right: 50rem;
 }
 .branding__explicacion h2{
     font-family: arsenica trial;
     font-weight: bold;
     font-size: 2rem;
-}
-.branding{
-    display: contents
-}
-.imagen__branding img{
-    width: 80%; 
+    padding-left: 2rem;
+    padding-top: 4rem;
 }
 .redes{
-    display: flex;
-    grid-column: span 2;
-    flex-direction: row-reverse;
     background-color: rgb(250, 250, 236) ;
     width: 100%;
+    margin-bottom: 0rem;
 }
 .redes__explicacion p{
     font-size: 1rem;
-    text-align: left;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
-    padding-top: 20px;
-    margin-right: 100px;
+    padding-top: 2rem;
+    margin-left: 45rem;
+    margin-right: 3rem;
 }
 .redes__explicacion h3{
     font-family: arsenica trial;
     font-weight: bold;
     font-size: 2rem;
-    padding-top: 70px;
+    padding-top: 2rem;
+    margin-left: 45rem;
 }
-.imagen__redes img{
-    width: 99.8%; 
-    padding-top: 0px;
-    margin-right: 500px;
+.redes__explicacion img{
+    width: 50%;
 }
-.redes__explicacion{
-    margin-left: 5rem;
-}
-
 
 
 
 @media screen and (max-width: 1024px) {
-    .header{
-        
-    }   
+    .contenedor1{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    } 
     .background__contenedor{
         background-image: url(../img/fondo-inicio.png);
          width: 100%;
@@ -386,6 +363,26 @@ p{
          background-position: center;
          background-repeat: no-repeat;
     }
+    .linea__frase{
+        margin-left: 450px;
+    }
+    .linea__texto2{
+        margin-left: 720px;
+    }
+    .redes__explicacion h3 {
+         margin-left: 33rem;
+    }
+    .redes__explicacion p{
+        padding-top: 2rem;
+        margin-left: 35rem;
+    }
+    .branding__explicacion p{
+        margin-right: 0rem;
+    }
+    .texto__introduccion p{
+        margin-left: 38rem;
+        margin-right: 5rem;
+    }
 }
     
 @media screen and (max-width: 768px) {
@@ -393,6 +390,12 @@ p{
         flex: 0 0 auto;
         width: 47%;
     }
+    .contenedor1{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    } 
     .navbar{
         width: 100%;
        background: rgba(255, 255, 255, 0.692); 
@@ -414,6 +417,44 @@ p{
         margin-top: 12rem;
         margin-bottom: 2rem;
     }
+    .contenedor1{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .texto__introduccion h1 {
+        padding-top: 8rem;
+    }
+    .texto__introduccion p{
+        margin: 1rem;
+    }
+    .linea__frase{
+        margin-left: 350px;
+    }
+    .linea__texto2{
+         margin-left: 520px;
+    }
+    .branding__explicacion h2{
+        padding-left: 2rem;
+        padding-top: 3rem;
+    }
+    .branding__explicacion p{
+        font-size: 1.2rem;
+        margin-right: 0rem;
+    }
+
+    .redes__explicacion img{
+        width: 50%;
+    }
+    .redes__explicacion p {
+        padding-top: 1rem;
+        margin-left: 27rem;
+        font-size: 1.2rem;
+    }
+    .redes__explicacion h3 {
+        margin-left: 27rem;
+    } 
 }
     
 @media screen and (max-width: 425px) {
@@ -532,75 +573,5 @@ p{
     flex-direction: column-reverse;
     align-items: center;
 }
-.main2 {
-    display: grid;
-    grid-template-rows: 435px 150px 279px;
-    grid-template-columns: 220px 1fr;
-    grid-gap: 10px;
-    overflow: hidden;
-}
-.main__servicios {
-    background-image: url(../img/fondo\ servicios.png);
-    background-repeat: no-repeat;
-    width: 70%;
-    height: 450px;
-}
-.presentacion__servicios img {
-    width: 235px;
-    height: auto;
-    padding-top: 12rem;
-    margin-left: 0px;
-}
-.texto__introduccion h1 {
-    font-family: arsenica trial;
-    font-weight: normal;
-    font-size: 2.2rem;
-}
-.texto__servicios {
-    padding-top: 10rem;
-}
-.linea__texto2 {
-    width: 60px;
-    height: 1px;
-    text-align: center;
-    margin-top: 12px;
-    background: black;
-}
-.texto__introduccion p {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
-    font-size: 0.9rem;
-    text-align: center;
-    margin: auto;
-}
-.frase__servicios p{
-    text-align: center;
-    font-family: arsenica trial;
-    font-weight: normal;
-    font-size: 1.2rem;
-    padding-top: 2rem;
-    letter-spacing: 3px;
-    width: 411px
-}
-.linea__frase{
-    width: 100px;
-    height: 1px;
-    text-align: center;
-    background: black;
-}
-.frase{
-    margin: auto;
-    width: 100%;
-    background-color: beige;
-    grid-column: span 3;
-    height: 160px;
-}
-.branding{
-   display: contents;
-}
-.branding__explicacion p{
-    font-size: 0.8rem;
-    text-align: left;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 }

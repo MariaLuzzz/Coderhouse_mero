@@ -43,90 +43,100 @@
           </nav>
         </header>
     <main class="main">
-        <section class="contacto">
-            <form class="contacto__mero" action="#" method="get" enctype="multipart/form-data">
-                <fieldset class="contacto__formulario">
-                    <legend class="titulocontacto">Contactate con nosotras</legend>
-                <div class="contacto__name">
-                    <label for="name">Nombre y Apellido</label>
-                </div>
-                <div>
-                     <input type="text" name="name" id="name" required>
-                </div>
-                <div class="contacto__email">
-                    <label for="email">Correo</label>
-                </div>
-                <div>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="contacto__phone">
-                    <label for="phone">Teléfono</label>
-                </div>
-                <div>
-                    <input type="tel" name="phone" id="phone">
-                </div>
-                <div class="contacto__location">
-                    <label for="location">¿De dónde eres?</label>
-                </div>
-                <div>
-                    <input type="text" name="location" id="location" required>
-                </div>
-                <div class="contacto__text">
-                    <label for="text">Nombre de tu emprendimiento</label>
-                </div>
-                <div>
-                    <input type="text" name="emprendimiento" id="emprendimiento" required>
-                </div>
-                <div class="contacto__servicios">
-                   <strong> <label for="servicios">¿Cómo nos conociste?</label></strong>
-                </div>
-                <div>
-                     <input type="checkbox" name="publicidad en Instagram" id="publicidad en Instagram">
-                     <label for="servicio"> Publicidad en Instagram</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="Fuimos recomendadas" id="Fuimosrecomendadas">
-                    <label for="servicio">Fuimos recomendadas</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="Te hablaron de nosotras" id="Tehablarondenosotras">
-                    <label for="servicio">Te hablaron de nosotras</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="Otro" id="other" required>
-                    <label for="servicio">Otro</label>
-                </div>
-                <div>
-                    <input type="text" name="otro" id="otro">
-                </div>
-                <div class="contacto__servicios2">
-                    <strong> <label for="servicios">¿En qué podemos ayudarte?</label></strong>
-                 </div>
-                 <div>
-                      <input type="checkbox" name="Diseño de indentidad visual" id="Diseñodeindentidadvisual">
-                      <label for="servicio"> Diseño de indentidad visual</label>
-                 </div>
-                 <div>
-                     <input type="checkbox" name="Diseño de Redes sociales" id="DiseñodeRedessociales">
-                     <label for="servicio">Diseño de Redes sociales</label>
-                 </div>
-                 <div>
-                     <input type="checkbox" name="Diseño de Packaging" id="DiseñodePackaging">
-                     <label for="servicio">Diseño de Packaging</label>
-                 </div>
-                 <div>
-                     <input type="checkbox" name="Otro" id="other" required>
-                     <label for="servicio">Otro</label>
-                 </div>
-                 <div>
-                     <input type="text" name="otro" id="otro">
-                 </div>
-                 <div>
-                   <strong><input type="submit" value="Enviar"></strong> 
-                 </div>
-                </fieldset>
-             </form>
-        </section>
+      <section class="contacto">
+        <form class="contacto__mero" action="#" method="get" enctype="multipart/form-data">
+          <fieldset class="contacto__formulario">
+            <legend class="titulocontacto">Contactate con nosotras</legend>
+            <div class="contactodiv row justify-content-around">
+              
+              <!--PRIMERA COLUMNA-->
+             <div class="columna1 col-6 float-start mb-0 ms-md-0">
+            <div class="contacto__name p-2 ">
+              <label for="name">Nombre y Apellido</label>
+           </div>
+           <div>
+               <input type="text" name="name" id="name" required>
+           </div>
+           <div class="contacto__email p-2">
+              <label for="email">Correo</label>
+           </div>
+           <div>
+              <input type="email" name="email" id="email" required>
+           </div>
+           <div class="contacto__phone p-2">
+              <label for="phone">Teléfono</label>
+           </div>
+           <div>
+              <input type="tel" name="phone" id="phone">
+           </div>
+           <div class="contacto__location p-2">
+              <label for="location">¿De dónde eres?</label>
+           </div>
+           <div>
+              <input type="text" name="location" id="location" required>
+           </div>
+           <div class="contacto__text p-2">
+              <label for="text">Nombre de tu emprendimiento</label>
+           </div>
+           <div>
+              <input type="text" name="emprendimiento" id="emprendimiento" required>
+           </div>
+          </div>
+
+          <!--SEGUNDA COLUMNA-->
+           <div class="col-8">
+            <div class="contacto__servicios">
+              <strong> <label for="servicios">¿Cómo nos conociste?</label></strong>
+            </div>
+            <div>
+                <input type="checkbox" name="publicidad en Instagram" id="publicidad en Instagram">
+                <label for="servicio"> Publicidad en Instagram</label>
+            </div>
+            <div>
+               <input type="checkbox" name="Fuimos recomendadas" id="Fuimosrecomendadas">
+               <label for="servicio">Fuimos recomendadas</label>
+            </div>
+            <div>
+               <input type="checkbox" name="Te hablaron de nosotras" id="Tehablarondenosotras">
+               <label for="servicio">Te hablaron de nosotras</label>
+            </div>
+            <div>
+               <input type="checkbox" name="Otro" id="other" required>
+               <label for="servicio">Otro</label>
+            </div>
+            <div>
+               <input type="text" name="otro" id="otro">
+            </div>
+            <div class="contacto__servicios2">
+               <strong> <label for="servicios">¿En qué podemos ayudarte?</label></strong>
+            </div>
+            <div>
+                 <input type="checkbox" name="Diseño de indentidad visual" id="Diseñodeindentidadvisual">
+                 <label for="servicio"> Diseño de indentidad visual</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Diseño de Redes sociales" id="DiseñodeRedessociales">
+                <label for="servicio">Diseño de Redes sociales</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Diseño de Packaging" id="DiseñodePackaging">
+                <label for="servicio">Diseño de Packaging</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Otro" id="other" required>
+                <label for="servicio">Otro</label>
+            </div>
+            <div>
+                <input type="text" name="otro" id="otro">
+            </div>
+           </div>
+        </div>
+        <div>
+          <strong><input class="enviar btn btn-light" type="submit" value="Enviar"></strong> 
+        </div>
+          </fieldset>
+       </form> 
+      </section>
     </main>
     <footer class=" text-center " style="background-color:#efefdc;">
         <!-- Grid container -->

@@ -144,64 +144,78 @@ p{
 }
 .contacto__mero{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.contactodiv {
+    --bs-gutter-x: 10rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 2.5rem;
 }
 .contacto__formulario{
     padding-bottom: 5rem;
     padding-top: 4rem;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 .contacto__formulario{
-    font-family: antipasto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 .titulocontacto{
     font-size: 2.2rem;
     text-align: center;
     font-family: arsenica trial;
 }
-#name{
+.enviar{
+    background-color: #eee8de;
     width: 100%;
+    margin-top: 5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: medium;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2)
+}
+#name{
+    width: 400px;
     border-color: transparent;
     background-color: rgba(255, 255, 255, 0.753);
-    height: 20px;
+    height: 30px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 #email{
-    width: 100%;
+    width: 400px;
     border-color: transparent;
     background-color: rgba(255, 255, 255, 0.753);
-    height: 20px;
+    height: 30px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 #phone{
-    width: 100%;
+    width: 400px;
     border-color: transparent;
     background-color: rgba(255, 255, 255, 0.753);
-    height: 20px;
+    height: 30px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 #location{
-    width: 100%;
+    width: 400px;
     border-color: transparent;
     background-color: rgba(255, 255, 255, 0.753);
-    height: 20px;
+    height: 30px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 #emprendimiento{
-    width: 100%;
+    width: 400px;
     border-color: transparent;
     background-color: rgba(255, 255, 255, 0.753);
-    height: 20px;
+    height: 30px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 #otro{
     width: 100%;
     border-color: transparent;
     background-color: rgba(255, 255, 255, 0.753);
-    height: 40px;
+    height: 60px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 .main__trabajos{
@@ -455,6 +469,28 @@ p{
     .redes__explicacion h3 {
         margin-left: 27rem;
     } 
+    .row>* {
+        padding-right: calc(var(--bs-gutter-x) * .0);
+    }
+    #name{
+        width: 250px;
+    }
+    #email{
+        width: 250px;
+    }
+    #phone{
+        width: 250px;
+    }
+    #location{
+        width: 250px;
+    }
+    #emprendimiento{
+        width: 250px;
+    }
+    #otro{
+        width: 100%;
+        height: 50px;
+    }
 }
     
 @media screen and (max-width: 425px) {
@@ -573,5 +609,51 @@ p{
     flex-direction: column-reverse;
     align-items: center;
 }
+ #name{
+        width: 230px;
+    }
+ #email{
+        width: 230px;
+    }
+ #phone{
+        width: 230px;
+    }
+ #location{
+        width: 230px;
+    }
+ #emprendimiento{
+        width: 230px;
+    }
+ #otro{
+        width: 100%;
+        height: 50px;
+    }
+ .row>* {
+        margin-right: calc(-.0 * var(--bs-gutter-x));
+    }
+ .contacto__mero{
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        justify-content: center;
+    }
+ .contactodiv {
+        --bs-gutter-x: 10rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        padding-top: 2.5rem;
+        flex-wrap: wrap;
+    }
+    .enviar{
+        width: 60%;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
 
+    .contacto__servicios{
+        margin-top: 2rem;
+    }
+    .contacto__servicios2{
+        margin-top: 2rem;
+    }  
 }

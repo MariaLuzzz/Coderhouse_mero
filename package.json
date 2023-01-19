@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "Un paquete de node para compilar SCSS a CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaLuzzz/Coderhouse_mero.git"
+  },
+  "author": "Maria Luz Arduh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaLuzzz/Coderhouse_mero/issues"
+  },
+  "homepage": "https://github.com/MariaLuzzz/Coderhouse_mero#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

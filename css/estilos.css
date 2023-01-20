@@ -8,7 +8,7 @@
 }
 
 .nav-link.active {
-    animation: beat .3s;
+    animation: beat .4s;
 	transform-origin: center;
     animation-delay: 1s;
     mask-repeat: 4;

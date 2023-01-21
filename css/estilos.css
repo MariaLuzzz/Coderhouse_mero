@@ -13,7 +13,7 @@
     animation-delay: 1s;
     mask-repeat: 4;
 }
-.contenedor1{
+.header__contenedor1{
     max-width: 100%;
     margin: 0;
     padding: 0;
@@ -163,7 +163,7 @@ p{
 .contacto__formulario{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
-.titulocontacto{
+.contacto__titulo{
     font-size: 2.2rem;
     text-align: center;
     font-family: arsenica trial;
@@ -275,14 +275,14 @@ p{
     background: black;
     margin-left: 950px;
 }
-.texto__introduccion h1{
+.servicios__introduccion h1{
     font-family: arsenica trial;
     font-weight: normal;
     font-size: 3rem;
     text-align: center;
     padding-top: 15rem;
 }
-.texto__introduccion p{
+.servicios__introduccion p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
     font-size: 1.2rem;
@@ -393,7 +393,7 @@ p{
     .branding__explicacion p{
         margin-right: 0rem;
     }
-    .texto__introduccion p{
+    .servicios__introduccion p{
         margin-left: 38rem;
         margin-right: 5rem;
     }
@@ -437,11 +437,13 @@ p{
         padding: 0;
         overflow: hidden;
     }
-    .texto__introduccion h1 {
+    .servicios__introduccion h1 {
         padding-top: 8rem;
+        font-size: 2rem;
     }
-    .texto__introduccion p{
+    .servicios__introduccion p{
         margin: 1rem;
+        font-size: 1rem;
     }
     .linea__frase{
         margin-left: 350px;
@@ -457,7 +459,9 @@ p{
         font-size: 1.2rem;
         margin-right: 0rem;
     }
-
+    .frase__servicios{
+        font-size: 1.8rem;
+    }
     .redes__explicacion img{
         width: 50%;
     }
@@ -656,4 +660,33 @@ p{
     .contacto__servicios2{
         margin-top: 2rem;
     }  
+    .holamero{
+        width: 90%;
+ }
+ .servicios__introduccion h1{
+    padding-top: 2rem;
+ }
+ .linea__texto2 {
+    margin-left: 160px;
+}
+.frase__servicios p{
+    font-size: 1.8rem;
+    padding-top: 2.5rem;
+    letter-spacing: 2.2px;
+}
+.linea__frase {
+    margin-left: 153px;
+}
+.branding {
+    width: 100%;
+}
+.redes__explicacion img{
+    width: 100%;
+}
+.redes__explicacion h3 {
+    margin-left: 2rem;
+}
+.redes__explicacion p {
+    margin-left: 2rem;
+}
 }

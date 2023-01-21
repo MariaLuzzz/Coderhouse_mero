@@ -8,7 +8,7 @@
 }
 
 .nav-link.active {
-    animation: beat .3s;
+    animation: beat .4s;
 	transform-origin: center;
     animation-delay: 1s;
     mask-repeat: 4;
@@ -648,19 +648,19 @@ p{
         padding-top: 2.5rem;
         flex-wrap: wrap;
     }
-    .enviar{
+.enviar{
         width: 60%;
         margin-top: 5rem;
         margin-left: 5rem;
     }
 
-    .contacto__servicios{
+.contacto__servicios{
         margin-top: 2rem;
     }
-    .contacto__servicios2{
+.contacto__servicios2{
         margin-top: 2rem;
     }  
-    .holamero{
+.holamero{
         width: 90%;
  }
  .servicios__introduccion h1{

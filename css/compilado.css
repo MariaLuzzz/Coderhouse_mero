@@ -1,0 +1,245 @@
+@charset "UTF-8";
+/*MEDIA QUERIES -1024*/
+@media screen and (max-width: 1024px) {
+  .contenedor1 {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  .background__contenedor {
+    width: 100%;
+    height: 800px;
+    padding-top: 0rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .linea__frase {
+    margin-left: 450px; }
+  .linea__texto2 {
+    margin-left: 720px; }
+  .redes__explicacion h3 {
+    margin-left: 33rem; }
+  .redes__explicacion p {
+    padding-top: 2rem;
+    margin-left: 35rem; }
+  .branding__explicacion p {
+    margin-right: 0rem; }
+  .servicios__introduccion p {
+    margin-left: 38rem;
+    margin-right: 5rem; } }
+
+/*MEDIA QUERIES -768*/
+@media screen and (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 47%; }
+  .contenedor1 {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  .navbar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.692);
+    position: fixed; }
+  .header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 9999; }
+  .container.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  .card {
+    width: 20rem;
+    margin-top: 12rem;
+    margin-bottom: 2rem; }
+  .contenedor1 {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  .servicios__introduccion h1 {
+    padding-top: 8rem;
+    font-size: 2rem; }
+  .servicios__introduccion p {
+    margin: 1rem;
+    font-size: 1rem; }
+  .linea__frase {
+    margin-left: 350px; }
+  .linea__texto2 {
+    margin-left: 520px; }
+  .branding__explicacion h2 {
+    padding-left: 2rem;
+    padding-top: 3rem; }
+  .branding__explicacion p {
+    font-size: 1.2rem;
+    margin-right: 0rem; }
+  .frase__servicios {
+    font-size: 1.8rem; }
+  .redes__explicacion img {
+    width: 50%; }
+  .redes__explicacion p {
+    padding-top: 1rem;
+    margin-left: 27rem;
+    font-size: 1.2rem; }
+  .redes__explicacion h3 {
+    margin-left: 27rem; }
+  .row > * {
+    padding-right: calc(var(--bs-gutter-x) * .0); }
+  #name {
+    width: 250px; }
+  #email {
+    width: 250px; }
+  #phone {
+    width: 250px; }
+  #location {
+    width: 250px; }
+  #emprendimiento {
+    width: 250px; }
+  #otro {
+    width: 100%;
+    height: 50px; } }
+
+/*MEDIA QUERIES -425*/
+@media screen and (max-width: 425px) {
+  .contenedor1 {
+    overflow: hidden; }
+  .navbar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.692);
+    position: fixed; }
+  .header {
+    position: fixed;
+    z-index: 9999; }
+  .text-center {
+    font-size: 0.8rem; }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 40%; }
+  .info {
+    font-size: 0.8rem; }
+  .card {
+    width: 23rem;
+    margin-top: 12rem;
+    margin-bottom: 2rem; }
+  .container.portfolio {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; }
+  .frase-contenedor h3 {
+    padding: 22rem 1rem; }
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap; }
+  .row > * {
+    flex-shrink: 0;
+    margin-top: var(--bs-gutter-y);
+    width: 40%; }
+  .my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+  *, ::after, ::before {
+    box-sizing: content-box; }
+  .gridpagina {
+    margin-left: 70px; }
+  .background__contenedor {
+    width: 100%;
+    height: 680px;
+    overflow: hidden;
+    background-repeat: no-repeat; }
+  .main__textoprincipal h1 {
+    font-size: 1.5rem;
+    padding-bottom: 2.37rem;
+    padding-top: 2.75rem;
+    margin: 57px; }
+  .main__textoprincipal .main__líneatexto {
+    width: 150px;
+    height: 1px;
+    text-align: center;
+    margin-top: 52px;
+    background: black; }
+  .main__button {
+    padding-top: 35rem; }
+  p strong {
+    font-size: 2.2rem;
+    font-weight: normal; }
+  .nosotras__fondo p {
+    display: inline-block;
+    background-color: white;
+    margin-left: 10%;
+    align-self: center;
+    display: flexbox;
+    padding: 1rem 1rem;
+    margin-top: 110%;
+    margin-right: 10%;
+    text-align: center; }
+  .nosotras__fondo {
+    background-image: url("/img/nosotras mobile.png");
+    background-repeat: no-repeat; }
+  .nosotras__fondo {
+    width: 100%;
+    height: 950px;
+    padding-top: 0rem; }
+  .main__trabajos {
+    display: flex;
+    padding-top: 10rem;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center; }
+  #name {
+    width: 230px; }
+  #email {
+    width: 230px; }
+  #phone {
+    width: 230px; }
+  #location {
+    width: 230px; }
+  #emprendimiento {
+    width: 230px; }
+  #otro {
+    width: 100%;
+    height: 50px; }
+  .row > * {
+    margin-right: calc(-.0 * var(--bs-gutter-x)); }
+  .contacto__mero {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center; }
+  .contactodiv {
+    --bs-gutter-x: 10rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    padding-top: 2.5rem;
+    flex-wrap: wrap; }
+  .enviar {
+    width: 60%;
+    margin-top: 5rem;
+    margin-left: 5rem; }
+  .contacto__servicios {
+    margin-top: 2rem; }
+  .contacto__servicios2 {
+    margin-top: 2rem; }
+  .holamero {
+    width: 90%; }
+  .servicios__introduccion h1 {
+    padding-top: 2rem; }
+  .linea__texto2 {
+    margin-left: 160px; }
+  .frase__servicios p {
+    font-size: 1.8rem;
+    padding-top: 2.5rem;
+    letter-spacing: 2.2px; }
+  .linea__frase {
+    margin-left: 153px; }
+  .branding {
+    width: 100%; }
+  .redes__explicacion img {
+    width: 100%; }
+  .redes__explicacion h3 {
+    margin-left: 2rem; }
+  .redes__explicacion p {
+    margin-left: 2rem; } }

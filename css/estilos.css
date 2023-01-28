@@ -7,7 +7,7 @@
 	to { transform: scale(1.2); }
 }
 
-.navbar-nav-link.active {
+.nav-link.active {
     animation: beat .4s;
 	transform-origin: center;
     animation-delay: 1s;

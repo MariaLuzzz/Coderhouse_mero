@@ -7,7 +7,7 @@
 	to { transform: scale(1.2); }
 }
 
-.nav-link.active {
+.navbar-nav-link.active {
     animation: beat .4s;
 	transform-origin: center;
     animation-delay: 1s;
@@ -25,21 +25,14 @@
    position: fixed;
    z-index: 9999;
 }
-.background__portfolio{
-    background-image: url(../img/1x/img-portfolio\ respns.png);
-    width: 100%;
-    height: 500px;
-    padding-top: 0rem;
-    background-attachment: fixed;
-	background-position: top;
-}
+
 .frase-contenedor h3{
     padding: 22rem 1rem;
     padding-right: 25rem;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-.background__contenedor{
+.main__background{
     width: 100%;
     height: 800px;
     padding-top: 0rem;
@@ -216,6 +209,14 @@ p{
     background-color: rgba(255, 255, 255, 0.753);
     height: 60px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.background__portfolio{
+    background-image: url(../img/1x/img-portfolio\ respns.png);
+    width: 100%;
+    height: 500px;
+    padding-top: 0rem;
+    background-attachment: fixed;
+	background-position: top;
 }
 .main__trabajos{
     background-color: white;

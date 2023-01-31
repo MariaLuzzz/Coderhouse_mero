@@ -1,0 +1,21 @@
+.navbar{
+    width: $width;
+    background:$background-color;
+    position: fixed;
+    z-index: 9999;
+    &-nav{
+        color: $black;
+        font-size: 0.9rem;
+        font-family: arsenica trial;
+        :hover{
+            color: $beige;}
+        & .nav-link.active{
+            animation: beat .4s;
+            transform-origin: center;
+            animation-delay: 1s;
+            mask-repeat: 4; }
+            @keyframes beat{
+                to { transform: scale(1.2); }
+            }
+    }
+ }

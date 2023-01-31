@@ -1,0 +1,15 @@
+.portfolio{
+    &__background{
+        width: $width;
+        height: 500px;
+        background-attachment: fixed;
+	    background-position: top;
+        & .portfolio-frase h3{
+            padding: 22rem 1rem;
+            padding-right: 25rem;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+    }
+
+}

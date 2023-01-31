@@ -1,5 +1,9 @@
+@import "./parciales/variables";
+@import "./parciales/body";
 @import "./parciales/header";
-@import "./parciales/footer";
+@import "./parciales/navbar";
+@import "./parciales/main__index";
+@import "./parciales/cards";
 @import "./parciales/portfolio";
 @import "./parciales/nosotras";
 @import "./parciales/contacto";
@@ -7,3 +11,5 @@
 @import "./parciales/branding";
 @import "./parciales/trabajos";
 @import "./parciales/media-queries";
+
+

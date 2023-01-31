@@ -1,0 +1,21 @@
+
+$black: black;
+$beige: rgb(223, 223, 197); 
+$color: rgb(255, 255, 255);
+$background-color: rgba(255, 255, 255, 0.692);
+$background-color-no: transparent;
+
+$width: 100%;
+$padding: 1rem 1rem;
+
+$box-shadow: 0 .5rem 1rem rgba($black, .15);
+
+@font-face{
+    font-family: arsenica trial;
+    src: url(fuentes/ArsenicaTrial-Regular.ttf);
+}
+$font-weight: normal;
+$btn-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$btn-font-size: 1.4rem;
+$imgpath: url("./img/nosotras\ mobile.png");
+$repeat: no-repeat;

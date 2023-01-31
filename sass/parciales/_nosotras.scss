@@ -1,0 +1,21 @@
+.nosotras{
+    &__fondo{
+        background-image: url("../img/nosotras.png");
+        width: $width;
+        height: 1100px;
+        padding-top: 0rem;
+        & p{
+            display: inline-block;
+            background-color: $background-color;
+            margin-left: 15%;
+            text-align: center; 
+            padding: 3rem 3rem;
+            margin-top: 50%;
+            margin-right: 30%;
+            & strong{
+                font-size: 2.5rem;
+                font-weight: $font-weight;
+            }
+        }
+    }
+}

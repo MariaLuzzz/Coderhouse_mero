@@ -1,4 +1,140 @@
 @charset "UTF-8";
+@font-face {
+  font-family: arsenica trial;
+  src: url(fuentes/ArsenicaTrial-Regular.ttf); }
+
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; }
+
+.header_contenedor1 {
+  max-width: 100%;
+  overflow: hidden; }
+
+.navbar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.692);
+  position: fixed;
+  z-index: 9999; }
+  .navbar-nav {
+    color: black;
+    font-size: 0.9rem;
+    font-family: arsenica trial; }
+    .navbar-nav :hover {
+      color: #dfdfc5; }
+    .navbar-nav .nav-link.active {
+      animation: beat .4s;
+      transform-origin: center;
+      animation-delay: 1s;
+      mask-repeat: 4; }
+
+@keyframes beat {
+  to {
+    transform: scale(1.2); } }
+
+.main__background {
+  width: 100%;
+  height: 800px;
+  padding-top: 0rem;
+  background-attachment: fixed;
+  background-position: center; }
+  .main__background .main__button {
+    padding-top: 33rem; }
+    .main__background .main__button .button {
+      font-size: 1.4rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: white;
+      background-color: transparent;
+      padding: 1rem 1rem;
+      text-decoration: none;
+      border: 1px solid, white; }
+
+.main__textoprincipal {
+  font-size: 1.4rem;
+  font-family: arsenica trial;
+  font-weight: normal;
+  text-align: center; }
+  .main__textoprincipal h1 {
+    padding-bottom: 4.37rem;
+    padding-top: 3.75rem;
+    margin: 50px;
+    font-size: 2.18rem; }
+  .main__textoprincipal .main__parrafo1 {
+    font-size: 1.25rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 5rem;
+    padding-top: 1.87rem; }
+  .main__textoprincipal hr {
+    width: 20%;
+    height: 3px;
+    color: black;
+    margin: auto; }
+
+.card {
+  width: 20rem;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  background-color: #fffbee; }
+
+.portfolio__background {
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: top; }
+  .portfolio__background .portfolio-frase h3 {
+    padding: 22rem 1rem;
+    padding-right: 25rem;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; }
+
+.nosotras__fondo {
+  background-image: url("../img/nosotras.png");
+  width: 100%;
+  height: 1100px;
+  padding-top: 0rem; }
+  .nosotras__fondo p {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.692);
+    margin-left: 15%;
+    text-align: center;
+    padding: 3rem 3rem;
+    margin-top: 50%;
+    margin-right: 30%; }
+    .nosotras__fondo p strong {
+      font-size: 2.5rem;
+      font-weight: normal; }
+
+.contacto {
+  background-image: url("../img/public logo 2.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1400px; }
+  .contacto__mero {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .contacto__formulario {
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+    .contacto__formulario font {
+      family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+  .contacto__titulo {
+    text-align: center; }
+    .contacto__titulo font {
+      family: arsenica trial;
+      size: 2.2rem; }
+  .contacto .contactodiv {
+    --bs-gutter-x: 10rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 2.5rem; }
+
 /*MEDIA QUERIES -1024*/
 @media screen and (max-width: 1024px) {
   .contenedor1 {
@@ -129,8 +265,8 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: center; }
-  .frase-contenedor h3 {
-    padding: 22rem 1rem; }
+  .portfolio__background .portfolio-frase h3 {
+    padding-right: 0rem; }
   .footer .row {
     display: flex;
     flex-wrap: wrap; }
@@ -141,8 +277,6 @@
   .my-4 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
-  *, ::after, ::before {
-    box-sizing: content-box; }
   .gridpagina {
     margin-left: 70px; }
   .background__contenedor {
@@ -164,20 +298,16 @@
   .main__button {
     padding-top: 35rem; }
   p strong {
-    font-size: 2.2rem;
-    font-weight: normal; }
+    font-size: 2.2rem; }
   .nosotras__fondo p {
-    display: inline-block;
-    background-color: white;
     margin-left: 10%;
     align-self: center;
     display: flexbox;
     padding: 1rem 1rem;
     margin-top: 110%;
-    margin-right: 10%;
-    text-align: center; }
+    margin-right: 10%; }
   .nosotras__fondo {
-    background-image: url("/img/nosotras mobile.png");
+    background-image: url("../img/nosotras mobile.png");
     background-repeat: no-repeat; }
   .nosotras__fondo {
     width: 100%;
@@ -202,7 +332,7 @@
   #otro {
     width: 100%;
     height: 50px; }
-  .row > * {
+  .row {
     margin-right: calc(-.0 * var(--bs-gutter-x)); }
   .contacto__mero {
     display: flex;

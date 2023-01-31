@@ -1,0 +1,49 @@
+.main{
+    &__background{
+        width: $width;
+        height: 800px;
+        padding-top: 0rem;
+        background-attachment: fixed;
+        background-position: center;
+        & .main__button{
+            padding-top: 33rem;
+           & .button{
+            font:{
+            size:$btn-font-size;
+            family: $btn-font-family;
+            }
+            color: $color;
+            background-color: $background-color-no;
+            padding: 1rem 1rem;
+            text-decoration: none;
+            border: 1px solid, $color;
+           } 
+        }
+    }
+    &__textoprincipal{
+        font:{
+            size:$btn-font-size;
+            family: arsenica trial;
+            weight: $font-weight;
+            }
+        text:{
+            align: center;
+        }
+        h1{
+            padding-bottom: 4.37rem;
+            padding-top: 3.75rem;
+            margin: 50px;
+            font-size: 2.18rem;}
+        & .main__parrafo1{
+            font-size: 1.25rem;
+            letter-spacing: 0.3rem;
+            padding-bottom: 5rem;
+            padding-top: 1.87rem; }
+        hr{
+            width: 20%;
+            height: 3px;
+            color: $black;
+            margin: auto;
+        }
+    }
+}

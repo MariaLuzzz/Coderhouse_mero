@@ -177,8 +177,8 @@
       flex-wrap: nowrap;
       align-items: center;
   }
-  .frase-contenedor h3 {
-      padding: 22rem 1rem;
+  .portfolio__background .portfolio-frase h3 {
+      padding-right: 0rem;
   }
   .footer .row{
       display: flex;
@@ -193,9 +193,7 @@
       margin-top: 1.5rem;
       margin-bottom: 1.5rem;
   }
-  *, ::after, ::before {
-      box-sizing: content-box;
-  }
+  
   .gridpagina{
       margin-left: 70px;
   }
@@ -223,28 +221,24 @@
   }
    p strong {
       font-size: 2.2rem;
-      font-weight: normal;
   }
   .nosotras__fondo p {
-      display: inline-block;
-      background-color: rgb(255, 255, 255);
       margin-left: 10%;
       align-self: center;
       display: flexbox;
       padding: 1rem 1rem;
       margin-top: 110%;
       margin-right: 10%;
-      text-align: center;
   }
 
   @mixin background($imgpath, $repeat: no-repeat) {
     background: {
-        image: url($imgpath);
+        image: url("../img/nosotras mobile.png");
         repeat: $repeat;
     }
 }
   .nosotras__fondo {
-    @include background('/img/nosotras\ mobile.png');
+    @include background($imgpath);
   }
   .nosotras__fondo {
       width: 100%;
@@ -277,7 +271,7 @@
           width: 100%;
           height: 50px;
       }
-   .row>* {
+   .row{
           margin-right: calc(-.0 * var(--bs-gutter-x));
       }
    .contacto__mero{

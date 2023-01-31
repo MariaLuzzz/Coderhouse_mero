@@ -116,24 +116,41 @@
     display: flex;
     align-items: center;
     justify-content: center; }
-  .contacto__formulario {
-    padding-bottom: 5rem;
-    padding-top: 4rem;
-    margin-top: 100px;
-    margin-bottom: 100px; }
-    .contacto__formulario font {
-      family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
-  .contacto__titulo {
-    text-align: center; }
-    .contacto__titulo font {
-      family: arsenica trial;
-      size: 2.2rem; }
-  .contacto .contactodiv {
+  .contacto .enviar {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: medium;
+    background-color: #eee8de;
+    width: 100%;
+    margin-top: 5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+  .contactodiv {
     --bs-gutter-x: 10rem;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: nowrap;
     padding-top: 2.5rem; }
+  .contacto #name, .contacto #email, .contacto #phone, .contacto #location, .contacto #emprendimiento {
+    width: 400px;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.692);
+    height: 30px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+  .contacto #otro {
+    width: 100%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.692);
+    height: 60px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+  .contacto__titulo {
+    font-family: arsenica trial;
+    font-size: 2.2rem;
+    text-align: center; }
+  .contacto__formulario {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    margin-top: 100px;
+    margin-bottom: 100px; }
 
 /*MEDIA QUERIES -1024*/
 @media screen and (max-width: 1024px) {
@@ -169,6 +186,9 @@
   .col-md-6 {
     flex: 0 0 auto;
     width: 47%; }
+  .columna1 {
+    flex: 0 0 auto;
+    width: 65%; }
   .contenedor1 {
     max-width: 100%;
     margin: 0;
@@ -224,6 +244,13 @@
     margin-left: 27rem; }
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * .0); }
+  .contactodiv {
+    --bs-gutter-x: 10rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2.5rem;
+    justify-content: space-between; }
   #name {
     width: 250px; }
   #email {
@@ -340,15 +367,18 @@
     flex-direction: column;
     justify-content: center; }
   .contactodiv {
-    --bs-gutter-x: 10rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    padding-top: 2.5rem;
-    flex-wrap: wrap; }
-  .enviar {
+    flex-direction: column;
+    align-items: stretch; }
+    .contactodiv *, .contactodiv ::after, .contactodiv ::before {
+      box-sizing: content-box; }
+  .contacto .enviar {
     width: 60%;
     margin-top: 5rem;
     margin-left: 5rem; }
+    .contacto .enviar *, .contacto .enviar ::after, .contacto .enviar ::before {
+      box-sizing: content-box; }
+  .contactodiv .col-8 {
+    width: 80%; }
   .contacto__servicios {
     margin-top: 2rem; }
   .contacto__servicios2 {

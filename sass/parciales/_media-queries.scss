@@ -46,6 +46,10 @@
         flex: 0 0 auto;
         width: 47%;
     }
+    .columna1{
+        flex: 0 0 auto;
+        width: 65%;
+    }
     .contenedor1{
         max-width: 100%;
         margin: 0;
@@ -117,6 +121,14 @@
     } 
     .row>* {
         padding-right: calc(var(--bs-gutter-x) * .0);
+    }
+    .contactodiv {
+        --bs-gutter-x: 10rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2.5rem;
+        justify-content: space-between;
     }
     #name{
         width: 250px;
@@ -281,17 +293,23 @@
           justify-content: center;
       }
    .contactodiv {
-          --bs-gutter-x: 10rem;
-          --bs-gutter-y: 0;
-          display: flex;
-          padding-top: 2.5rem;
-          flex-wrap: wrap;
-      }
-  .enviar{
+    flex-direction: column;
+    align-items: stretch;
+    *, ::after, ::before {
+        box-sizing: content-box;
+    }
+}
+  .contacto .enviar{
           width: 60%;
           margin-top: 5rem;
           margin-left: 5rem;
+          *, ::after, ::before {
+            box-sizing: content-box;
+        }
       }
+    .contactodiv .col-8{
+        width: 80%;
+    }
   
   .contacto__servicios{
           margin-top: 2rem;

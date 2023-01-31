@@ -9,26 +9,51 @@
         align-items: center;
         justify-content: center;
     }
-    &__formulario{
-       font{
-        family: $btn-font-family;
-        }
-        padding-bottom: 5rem;
-        padding-top: 4rem;
-        margin-top: 100px;
-        margin-bottom: 100px;
+    & .enviar{
+        font:{
+            family: $btn-font-family;
+            size: medium;
+            }
+        background-color: #eee8de;
+        width: $width;
+        margin-top: 5rem;
+        box-shadow: $box-shadow;
+    }
+    &div{
+        --bs-gutter-x: 10rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 2.5rem;
+    }
+    & #name, #email, #phone, #location, #emprendimiento{
+        width: 400px;
+        border-color: transparent;
+        background-color: $background-color;
+        height: 30px;
+        box-shadow: $box-shadow;
+    }
+    & #otro{
+        width: $width;
+        border-color: transparent;
+        background-color: $background-color;
+        height: 60px;
+        box-shadow: $box-shadow;
     }
     &__titulo{
-        font{
+        font:{
             family: arsenica trial;
             size: 2.2rem;
             }
         text-align: center;
     }
-    & .contactodiv {
-        --bs-gutter-x: 10rem;
-        --bs-gutter-y: 0;
-        display: flex;
-        flex-wrap: nowrap;
-        padding-top: 2.5rem;}
+    &__formulario{
+        font:{
+         family: $btn-font-family;
+         }
+         padding-bottom: 5rem;
+         padding-top: 4rem;
+         margin-top: 100px;
+         margin-bottom: 100px;
+     }
 }

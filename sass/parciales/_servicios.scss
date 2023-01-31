@@ -1,0 +1,30 @@
+.servicios{
+    &__introduccion{
+        overflow: hidden;
+        h1 {
+            font:{
+                family: arsenica trial;
+                weight: $font-weight;
+                size: 3rem;}
+            text-align: center;
+            padding-top: 15rem;
+        }
+        p{
+            font:{
+                family: $btn-font-family;
+                weight: lighter;
+                size: 1.2rem;}
+            text-align: center;
+            margin: 2rem;
+            margin-left: 48rem;
+            margin-right: 5rem;
+        }
+        hr{
+            width: 100px;
+            height: 2px;
+            margin-top: 30px;
+            background: $black;
+            margin-left: 950px;
+        }
+    }
+}

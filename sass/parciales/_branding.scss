@@ -1,0 +1,23 @@
+.branding{
+    margin-bottom: 0rem;
+    &__explicacion{
+        p{
+            font:{
+                family: $btn-font-family;
+                weight: 300;
+                size: 1.5rem; }
+            text-align: left;
+            margin-left: 2rem;
+            padding-top: 1rem;
+            margin-right: 50rem;
+        }
+        h2{
+            font:{
+                family: arsenica trial;
+                weight: bold;
+                size: 2rem; }
+            padding-left: 2rem;
+            padding-top: 4rem;
+        }
+    }
+}

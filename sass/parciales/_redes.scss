@@ -1,0 +1,27 @@
+.redes{
+    background-color: rgb(250, 250, 236) ;
+    width: $width;
+    margin-bottom: 0rem;
+    &__explicacion{
+        p{
+            font:{
+                family: $btn-font-family;
+                weight: 300;
+                size: 1.5rem; }
+            padding-top: 2rem;
+            margin-left: 45rem;
+            margin-right: 3rem;
+            }
+        h3{
+            font:{
+                family: arsenica trial;
+                weight: bold;
+                size: 2rem; }
+            padding-top: 2rem;
+            margin-left: 45rem;
+          }
+        img{
+            width: 50%;
+        }
+        }
+    }

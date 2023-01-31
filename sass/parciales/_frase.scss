@@ -1,0 +1,29 @@
+.frase{
+    margin: auto;
+    width: $width;
+    background-color:$beige;
+    grid-column: span 3;
+    height: 300px;
+
+    &__servicios{
+        p{
+            font:{
+                family: arsenica trial;
+                weight: $font-weight;
+                size: 2rem; }
+            text-align: center;
+            padding-top: 4.5rem;
+            letter-spacing: 3px;
+            width: $width;
+            padding-left: 0px;
+        }
+        hr{
+        width: 30%;
+        height: 2px;
+        background: $black;
+        margin-left: 500px;
+    }
+        
+    }
+    
+}
